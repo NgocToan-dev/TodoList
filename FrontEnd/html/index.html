@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="../bootstrap-5.1.3-dist/css/bootstrap.min.css">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <main class="container">
+        <div id="login" class="mt-3">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <div>
+                    <label for="basic-url" class="form-label">Email</label>
+                    <div class="inputControl input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Nhập email" id="email"
+                            aria-describedby="basic-addon3">
+                    </div>
+                    <button id="get_started" class="btn btn-primary">Bắt đầu</button>
+                </div>
+            </div>
+        </div>
+        <div id="todo_list" class="row mt-5">
+            <div class="col">
+                <div>
+                    <label for="basic-url" class="form-label">Tên ghi chú</label>
+                    <div class="inputControl input-group mb-3">
+                        <input type="text" class="form-control" placeholder="VD: Làm bài tập dịch vụ" id="title"
+                            aria-describedby="basic-addon3">
+                    </div>
+                </div>
+                <div>
+                    <label for="basic-url" class="form-label">Mô tả</label>
+                    <div class="inputControl input-group mb-3">
+                        <textarea class="form-control" placeholder="VD: Những lưu ý và công việc trong đây"
+                            id="description" aria-describedby="basic-addon3"></textarea>
+                    </div>
+                </div>
+                <div>
+                    <label for="basic-url" class="form-label">Thời gian</label>
+                    <div class="d-flex">
+                        <div class="inputControlDate input-group mb-3 me-3">
+                            <input type="date" class="form-control" id="remindDate" aria-describedby="basic-addon3">
+                        </div>
+                        <div class="inputControlDate input-group mb-3">
+                            <input type="time" class="form-control" id="remindTime" aria-describedby="basic-addon3">
+                        </div>
+                    </div>
+                </div>
+                <div class="inputControl">
+                    <label for="basic-url" class="form-label">Thời gian</label>
+                    <select class="form-select " aria-label="Default select example">
+                        <option selected>Open this select menu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                </div>
+                
+                <button id="createBtn" class="btn btn-primary">Tạo</button>
+            </div>
+            <div id="listTodo" class="col">
+
+
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Boostrap -->
+    <script src="../bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- Script -->
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

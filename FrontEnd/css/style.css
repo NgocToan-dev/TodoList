@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+}
+.inputControl.input-group.mb-3 {
+    width: 400px;
+}
+.inputControlDate{
+    width: 200px;
+}
+.titleText{
+    font-weight: 500;
+    font-size: 15px;
+}
+.descriptionText{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.form-label{
+    font-weight: 500;
+}
+.todo-item{
+    background-color: #827272;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    margin: 10px;
+}
+.todo-item span{
+    margin-right: 10px;
+
+}
+.deadline{
+    font-weight: 500;
+}
+.deadlineText, .deadlineHour{
+    margin-right: 10px;
+}
+
+#createBtn{
+    padding: 5px 20px;
+    margin-top: 30px;
+}
