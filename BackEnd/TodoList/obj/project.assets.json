@@ -817,11 +817,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Self Study\\C#\\TodoList\\TodoList\\TodoList.csproj",
+      "projectUniqueName": "F:\\ClassSubject\\PhanMemHuongDichVu\\TodoList\\BackEnd\\TodoList\\TodoList.csproj",
       "projectName": "TodoList",
-      "projectPath": "F:\\Self Study\\C#\\TodoList\\TodoList\\TodoList.csproj",
+      "projectPath": "F:\\ClassSubject\\PhanMemHuongDichVu\\TodoList\\BackEnd\\TodoList\\TodoList.csproj",
       "packagesPath": "C:\\Users\\pntoa\\.nuget\\packages\\",
-      "outputPath": "F:\\Self Study\\C#\\TodoList\\TodoList\\obj\\",
+      "outputPath": "F:\\ClassSubject\\PhanMemHuongDichVu\\TodoList\\BackEnd\\TodoList\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

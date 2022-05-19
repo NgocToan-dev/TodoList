@@ -19,7 +19,7 @@ namespace TodoList.Controllers
             _serviceResult = new ServiceResult();
         }
 
-        [HttpGet("{userID}")]
+        [HttpGet("GetByUserID/{userID}")]
         public IActionResult GetTodoItemList(int userID)
         {
             _serviceResult = _todoService.GetTodoItemList(userID);

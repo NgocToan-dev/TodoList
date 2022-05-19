@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JQmZWHnCOjvikDdw+naLxPvl3WGcZCPLOeGxGl71UtltYd6E6EkOg3vao0Dt4d276uAs0MU5ZjiFB12Bvn+XUQ==",
+  "dgSpecHash": "0hGX3N3rc3uKBMDXnKFuMwIT58HPaj3RibQ1Esh48XYzp7YYvEuctgmB/0bNFbs7fm1SG6hzxpk7BmsbI8G3OQ==",
   "success": true,
-  "projectFilePath": "F:\\Self Study\\C#\\TodoList\\TodoList\\TodoList.csproj",
+  "projectFilePath": "F:\\ClassSubject\\PhanMemHuongDichVu\\TodoList\\BackEnd\\TodoList\\TodoList.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pntoa\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\pntoa\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",

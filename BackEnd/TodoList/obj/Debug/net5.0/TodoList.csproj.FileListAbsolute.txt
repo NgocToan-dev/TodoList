@@ -29,3 +29,34 @@ F:\Self Study\C#\TodoList\TodoList\obj\Debug\net5.0\ref\TodoList.dll
 F:\Self Study\C#\TodoList\TodoList\bin\Debug\net5.0\Dapper.dll
 F:\Self Study\C#\TodoList\TodoList\bin\Debug\net5.0\MySqlConnector.dll
 F:\Self Study\C#\TodoList\TodoList\bin\Debug\net5.0\Newtonsoft.Json.dll
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoList\bin\Debug\net5.0\appsettings.Development.json
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoList\bin\Debug\net5.0\appsettings.json
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoList\bin\Debug\net5.0\TodoList.exe
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoList\bin\Debug\net5.0\TodoList.deps.json
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoList\bin\Debug\net5.0\TodoList.runtimeconfig.json
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoList\bin\Debug\net5.0\TodoList.runtimeconfig.dev.json
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoList\bin\Debug\net5.0\TodoList.dll
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoList\bin\Debug\net5.0\TodoList.pdb
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoList\bin\Debug\net5.0\Dapper.dll
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoList\bin\Debug\net5.0\Microsoft.OpenApi.dll
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoList\bin\Debug\net5.0\MySqlConnector.dll
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoList\bin\Debug\net5.0\Newtonsoft.Json.dll
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoList\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoList\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoList\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoList\obj\Debug\net5.0\TodoList.csproj.AssemblyReference.cache
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoList\obj\Debug\net5.0\TodoList.GeneratedMSBuildEditorConfig.editorconfig
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoList\obj\Debug\net5.0\TodoList.AssemblyInfoInputs.cache
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoList\obj\Debug\net5.0\TodoList.AssemblyInfo.cs
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoList\obj\Debug\net5.0\TodoList.csproj.CoreCompileInputs.cache
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoList\obj\Debug\net5.0\TodoList.MvcApplicationPartsAssemblyInfo.cs
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoList\obj\Debug\net5.0\TodoList.MvcApplicationPartsAssemblyInfo.cache
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoList\obj\Debug\net5.0\scopedcss\bundle\TodoList.styles.css
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoList\obj\Debug\net5.0\staticwebassets\TodoList.StaticWebAssets.Manifest.cache
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoList\obj\Debug\net5.0\TodoList.RazorTargetAssemblyInfo.cache
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoList\obj\Debug\net5.0\TodoList.csproj.CopyComplete
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoList\obj\Debug\net5.0\TodoList.dll
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoList\obj\Debug\net5.0\refint\TodoList.dll
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoList\obj\Debug\net5.0\TodoList.pdb
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoList\obj\Debug\net5.0\TodoList.genruntimeconfig.cache
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoList\obj\Debug\net5.0\ref\TodoList.dll
