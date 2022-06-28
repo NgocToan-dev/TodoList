@@ -1,0 +1,7 @@
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoService\obj\Debug\net5.0\TodoService.csproj.AssemblyReference.cache
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoService\obj\Debug\net5.0\TodoService.GeneratedMSBuildEditorConfig.editorconfig
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoService\obj\Debug\net5.0\TodoService.AssemblyInfoInputs.cache
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoService\obj\Debug\net5.0\TodoService.AssemblyInfo.cs
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoService\obj\Debug\net5.0\TodoService.csproj.CoreCompileInputs.cache
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoService\obj\Debug\net5.0\TodoService.MvcApplicationPartsAssemblyInfo.cs
+F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\TodoService\obj\Debug\net5.0\TodoService.MvcApplicationPartsAssemblyInfo.cache

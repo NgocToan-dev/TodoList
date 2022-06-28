@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoList", "TodoList\TodoList.csproj", "{E88C81A0-FF37-4DBF-887C-EA8AED25545E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{D52678F0-A4A4-4FAA-AD29-0E8116924F10}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoServiceAPI", "TodoService\TodoServiceAPI.csproj", "{D0E4ECE7-5243-4EE5-88DE-CC787093F424}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserServiceAPI", "UserService\UserServiceAPI.csproj", "{EF4FA504-0329-4F73-A4BF-DF6D41BA9E18}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherServiceAPI", "WeatherService\WeatherServiceAPI.csproj", "{77D289E5-37F1-4E7B-91EB-75F7F5B2EF20}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entity", "Entity\Entity.csproj", "{A7DCAC33-D79F-46DE-B3A9-E0171E8DB3CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAOProject", "DAO\DAOProject.csproj", "{F3CDFAE4-5A74-45D3-A578-00A383400675}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoAPIGateway", "TodoAPIGateway\TodoAPIGateway.csproj", "{44F8813D-4C7C-48A0-81FB-7AB42856A35F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +23,38 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E88C81A0-FF37-4DBF-887C-EA8AED25545E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E88C81A0-FF37-4DBF-887C-EA8AED25545E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E88C81A0-FF37-4DBF-887C-EA8AED25545E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E88C81A0-FF37-4DBF-887C-EA8AED25545E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0E4ECE7-5243-4EE5-88DE-CC787093F424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0E4ECE7-5243-4EE5-88DE-CC787093F424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0E4ECE7-5243-4EE5-88DE-CC787093F424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0E4ECE7-5243-4EE5-88DE-CC787093F424}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF4FA504-0329-4F73-A4BF-DF6D41BA9E18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF4FA504-0329-4F73-A4BF-DF6D41BA9E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF4FA504-0329-4F73-A4BF-DF6D41BA9E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF4FA504-0329-4F73-A4BF-DF6D41BA9E18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77D289E5-37F1-4E7B-91EB-75F7F5B2EF20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77D289E5-37F1-4E7B-91EB-75F7F5B2EF20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77D289E5-37F1-4E7B-91EB-75F7F5B2EF20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77D289E5-37F1-4E7B-91EB-75F7F5B2EF20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7DCAC33-D79F-46DE-B3A9-E0171E8DB3CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7DCAC33-D79F-46DE-B3A9-E0171E8DB3CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7DCAC33-D79F-46DE-B3A9-E0171E8DB3CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7DCAC33-D79F-46DE-B3A9-E0171E8DB3CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3CDFAE4-5A74-45D3-A578-00A383400675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3CDFAE4-5A74-45D3-A578-00A383400675}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3CDFAE4-5A74-45D3-A578-00A383400675}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3CDFAE4-5A74-45D3-A578-00A383400675}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44F8813D-4C7C-48A0-81FB-7AB42856A35F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44F8813D-4C7C-48A0-81FB-7AB42856A35F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44F8813D-4C7C-48A0-81FB-7AB42856A35F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44F8813D-4C7C-48A0-81FB-7AB42856A35F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D0E4ECE7-5243-4EE5-88DE-CC787093F424} = {D52678F0-A4A4-4FAA-AD29-0E8116924F10}
+		{EF4FA504-0329-4F73-A4BF-DF6D41BA9E18} = {D52678F0-A4A4-4FAA-AD29-0E8116924F10}
+		{77D289E5-37F1-4E7B-91EB-75F7F5B2EF20} = {D52678F0-A4A4-4FAA-AD29-0E8116924F10}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {791D8BEA-082B-442C-87A4-7BE139B48D99}

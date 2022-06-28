@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="_content/DAOProject" Path="F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\DAO\wwwroot\" />
+  <ContentRoot BasePath="_content/Entity" Path="F:\ClassSubject\PhanMemHuongDichVu\TodoList\BackEnd\Entity\wwwroot\" />
+</StaticWebAssets>

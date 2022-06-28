@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "hDdw4sJW2zMUmWIeDO9KVvnaxtKMSXxyYXrnhZVhwucPETJhmEw6GPHAFXBNVk7M/FF8AqwY9uzFo2x5zHJOkQ==",
+  "success": true,
+  "projectFilePath": "F:\\ClassSubject\\PhanMemHuongDichVu\\TodoList\\BackEnd\\DAO\\DAOProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pntoa\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\pntoa\\.nuget\\packages\\mysqlconnector\\2.1.10\\mysqlconnector.2.1.10.nupkg.sha512",
+    "C:\\Users\\pntoa\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

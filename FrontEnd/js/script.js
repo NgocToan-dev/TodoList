@@ -49,7 +49,7 @@ $(function () {
 
     }
     function loadData(userID) {
-        var url = 'https://localhost:5001/v1/TodoItem/' + userID;
+        var url = 'https://localhost:5001/v1/TodoItem/GetByUserID/' + userID;
         $.ajax({
             url: url,
             type: 'GET',
@@ -87,6 +87,7 @@ $(function () {
         $("#createBtn").click(function () {
             var title = $('#title').val(),
                 description = $('#description').val(),
+                place = $('#place').val(),
                 remindDate = $('#remindDate').val(),
                 remindTime = $('#remindTime').val(),
                 deadlineTime = new Date(remindDate + ' ' + remindTime),
@@ -99,6 +100,7 @@ $(function () {
                 userID: userID,
                 deadlineTime: deadlineTime,
                 description: description,
+                place: place,
             };
 
             $.ajax({

@@ -1,0 +1,46 @@
+{
+  "ReRoutes": [
+    // todo item service
+    {
+      "DownstreamPathTemplate": "/v1/TodoItem/GetByUserID/{userID}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5010
+        }
+      ],
+      "UpstreamPathTemplate": "/apiGateWay/TodoItem/GetByUserID/{userID}",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+    },
+    // user service
+    {
+      "DownstreamPathTemplate": "/v1/User/{userID}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5020
+        }
+      ],
+      "UpstreamPathTemplate": "/apiGateWay/User/{userID}",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+    },
+    // weather service
+    {
+      "DownstreamPathTemplate": "/v1/Weather?place={place}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5030
+        }
+      ],
+      "UpstreamPathTemplate": "/apiGateWay/Weather?place={place}",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl" :  "https://localhost:5001/"
+  }
+}
