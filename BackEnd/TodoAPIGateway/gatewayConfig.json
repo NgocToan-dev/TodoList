@@ -26,6 +26,18 @@
       "UpstreamPathTemplate": "/apiGateWay/User/{userID}",
       "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
     },
+    {
+      "DownstreamPathTemplate": "/v1/User",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5020
+        }
+      ],
+      "UpstreamPathTemplate": "/apiGateWay/User",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+    },
     // weather service
     {
       "DownstreamPathTemplate": "/v1/Weather?place={place}",

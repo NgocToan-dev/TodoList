@@ -9,7 +9,7 @@ $(function () {
         $("#get_started").click(function () {
 
             currEmail = $("#email").val().toLowerCase();
-            var url = 'https://localhost:5001/v1/User'
+            var url = 'https://localhost:5001/apiGateWay/User'
             $.ajax({
                 url: url,
                 type: 'POST',
@@ -49,7 +49,7 @@ $(function () {
 
     }
     function loadData(userID) {
-        var url = 'https://localhost:5001/v1/TodoItem/GetByUserID/' + userID;
+        var url = 'https://localhost:5001/apiGateWay/TodoItem/GetByUserID/' + userID;
         $.ajax({
             url: url,
             type: 'GET',
@@ -94,7 +94,7 @@ $(function () {
                 hour = deadlineTime.getHours() + 7,
                 deadlineTime = deadlineTime.setHours(hour),
                 deadlineTime = new Date(deadlineTime).toJSON(),
-                url = 'https://localhost:5001/v1/TodoItem';
+                url = 'https://localhost:5001/apiGateWay/TodoItem';
             var data = {
                 title: title,
                 userID: userID,
