@@ -46,7 +46,6 @@ namespace TodoAPIGateway
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-
             }
 
             app.UseRouting();
@@ -55,6 +54,7 @@ namespace TodoAPIGateway
             {
                 endpoints.MapControllers();
             });
+
 
 
             await app.UseOcelot();

@@ -55,7 +55,7 @@ namespace WeatherServiceAPI.Service
                         if (isBuildDone)
                         {
                             from = "testsendemail111@gmail.com";
-                            pass = "Toan@123456";
+                            pass = "elilhsehnsexvyps";
                             to = u.Email;
 
                             MailMessage mail = new MailMessage();
@@ -68,6 +68,7 @@ namespace WeatherServiceAPI.Service
                             smtp.EnableSsl = true;
                             smtp.Port = 587;
                             smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
+                            smtp.UseDefaultCredentials = false;
                             smtp.Credentials = new NetworkCredential(from, pass);
                             try
                             {

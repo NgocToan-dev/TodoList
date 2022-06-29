@@ -13,6 +13,18 @@
       "UpstreamPathTemplate": "/apiGateWay/TodoItem/GetByUserID/{userID}",
       "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
     },
+    {
+      "DownstreamPathTemplate": "/v1/TodoItem",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5010
+        }
+      ],
+      "UpstreamPathTemplate": "/apiGateWay/TodoItem",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+    },
     // user service
     {
       "DownstreamPathTemplate": "/v1/User/{userID}",

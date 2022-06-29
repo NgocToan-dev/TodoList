@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WeatherServiceAPI.Service;
 
 namespace WeatherServiceAPI
 {
@@ -13,7 +14,13 @@ namespace WeatherServiceAPI
     {
         public static void Main(string[] args)
         {
+
+            NotificationEmailService notificationEmailService = new NotificationEmailService();
+            notificationEmailService.sendEmailRemind();
+
             CreateHostBuilder(args).Build().Run();
+
+            
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>

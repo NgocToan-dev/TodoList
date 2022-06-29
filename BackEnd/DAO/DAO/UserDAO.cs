@@ -24,11 +24,16 @@ namespace DAOProject.DAO
         public dynamic GetEmailHasDeadline(DateTime deadlineTime)
         {
             dynamic obj = new ExpandoObject();
-            using(var multi = _dbConnection.QueryMultiple($"Proc_CheckDeadline", new { deadlineTime = deadlineTime }, commandType: CommandType.StoredProcedure))
+            if(_dbConnection.State == ConnectionState.Closed)
+            {
+                _dbConnection.Open();
+            }
+            using (var multi = _dbConnection.QueryMultiple($"Proc_CheckDeadline", new { deadlineTime = deadlineTime }, commandType: CommandType.StoredProcedure))
             {
                 obj.User = multi.Read<User>().AsList();
                 obj.TodoItem = multi.Read<TodoItem>().AsList();
             }
+            _dbConnection.Close();
             return obj;
         }
 
