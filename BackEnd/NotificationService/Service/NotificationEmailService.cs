@@ -6,7 +6,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Mail;
 
-namespace WeatherServiceAPI.Service
+namespace NotificationService.Service
 {
     public class NotificationEmailService
     {

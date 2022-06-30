@@ -15,8 +15,7 @@ namespace WeatherServiceAPI
         public static void Main(string[] args)
         {
 
-            NotificationEmailService notificationEmailService = new NotificationEmailService();
-            notificationEmailService.sendEmailRemind();
+
 
             CreateHostBuilder(args).Build().Run();
 
