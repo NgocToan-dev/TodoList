@@ -1,12 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "hDdw4sJW2zMUmWIeDO9KVvnaxtKMSXxyYXrnhZVhwucPETJhmEw6GPHAFXBNVk7M/FF8AqwY9uzFo2x5zHJOkQ==",
+  "dgSpecHash": "WrwbiIQm8LP0cisTtdiwqz/oYSs4KFPsrPq2AGoN/Q0IIKCGPO0OfetnFfgCg1AppDGRrjHd5GKZFWW/7zUicA==",
   "success": true,
-  "projectFilePath": "F:\\ClassSubject\\PhanMemHuongDichVu\\TodoList\\BackEnd\\DAO\\DAOProject.csproj",
+  "projectFilePath": "E:\\ClassSubject\\PhanMemHuongDichVu\\TodoList\\BackEnd\\DAO\\DAOProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pntoa\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\pntoa\\.nuget\\packages\\mysqlconnector\\2.1.10\\mysqlconnector.2.1.10.nupkg.sha512",
-    "C:\\Users\\pntoa\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\pntoa\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\pntoa\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512",
+    "C:\\Users\\pntoa\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\pntoa\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\pntoa\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

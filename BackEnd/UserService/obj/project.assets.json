@@ -340,24 +340,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pntoa\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\pntoa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\ClassSubject\\PhanMemHuongDichVu\\TodoList\\BackEnd\\UserService\\UserServiceAPI.csproj",
+      "projectUniqueName": "E:\\ClassSubject\\PhanMemHuongDichVu\\TodoList\\BackEnd\\UserService\\UserServiceAPI.csproj",
       "projectName": "UserServiceAPI",
-      "projectPath": "F:\\ClassSubject\\PhanMemHuongDichVu\\TodoList\\BackEnd\\UserService\\UserServiceAPI.csproj",
+      "projectPath": "E:\\ClassSubject\\PhanMemHuongDichVu\\TodoList\\BackEnd\\UserService\\UserServiceAPI.csproj",
       "packagesPath": "C:\\Users\\pntoa\\.nuget\\packages\\",
-      "outputPath": "F:\\ClassSubject\\PhanMemHuongDichVu\\TodoList\\BackEnd\\UserService\\obj\\",
+      "outputPath": "E:\\ClassSubject\\PhanMemHuongDichVu\\TodoList\\BackEnd\\UserService\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\pntoa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -371,11 +366,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "F:\\ClassSubject\\PhanMemHuongDichVu\\TodoList\\BackEnd\\DAO\\DAOProject.csproj": {
-              "projectPath": "F:\\ClassSubject\\PhanMemHuongDichVu\\TodoList\\BackEnd\\DAO\\DAOProject.csproj"
+            "E:\\ClassSubject\\PhanMemHuongDichVu\\TodoList\\BackEnd\\DAO\\DAOProject.csproj": {
+              "projectPath": "E:\\ClassSubject\\PhanMemHuongDichVu\\TodoList\\BackEnd\\DAO\\DAOProject.csproj"
             },
-            "F:\\ClassSubject\\PhanMemHuongDichVu\\TodoList\\BackEnd\\Entity\\Entity.csproj": {
-              "projectPath": "F:\\ClassSubject\\PhanMemHuongDichVu\\TodoList\\BackEnd\\Entity\\Entity.csproj"
+            "E:\\ClassSubject\\PhanMemHuongDichVu\\TodoList\\BackEnd\\Entity\\Entity.csproj": {
+              "projectPath": "E:\\ClassSubject\\PhanMemHuongDichVu\\TodoList\\BackEnd\\Entity\\Entity.csproj"
             }
           }
         }
@@ -413,6 +408,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.17, 5.0.17]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -421,7 +434,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "eDJBXEETSUHtLokWsbCTVvfpOLnECfuKpPO7EFe56rXjxbj7+Qga0ktXS/0LJuctdLdkIDwxhlgU4MH+1kjFFg==",
+  "dgSpecHash": "MaqPBTLGxsIUHhrT5wLBIXc4//uh8erWS/fT9IF7hYiX9a3av3Nl0sDuauOi1aQxiC4RZpyFL8+qlJ+4Mmw+Mw==",
   "success": true,
-  "projectFilePath": "F:\\ClassSubject\\PhanMemHuongDichVu\\TodoList\\BackEnd\\Entity\\Entity.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "E:\\ClassSubject\\PhanMemHuongDichVu\\TodoList\\BackEnd\\Entity\\Entity.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pntoa\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512",
+    "C:\\Users\\pntoa\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\pntoa\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\pntoa\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

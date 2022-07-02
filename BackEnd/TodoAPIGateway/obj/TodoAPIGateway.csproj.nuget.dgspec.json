@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\ClassSubject\\PhanMemHuongDichVu\\TodoList\\BackEnd\\TodoAPIGateway\\TodoAPIGateway.csproj": {}
+    "E:\\ClassSubject\\PhanMemHuongDichVu\\TodoList\\BackEnd\\TodoAPIGateway\\TodoAPIGateway.csproj": {}
   },
   "projects": {
-    "F:\\ClassSubject\\PhanMemHuongDichVu\\TodoList\\BackEnd\\TodoAPIGateway\\TodoAPIGateway.csproj": {
+    "E:\\ClassSubject\\PhanMemHuongDichVu\\TodoList\\BackEnd\\TodoAPIGateway\\TodoAPIGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ClassSubject\\PhanMemHuongDichVu\\TodoList\\BackEnd\\TodoAPIGateway\\TodoAPIGateway.csproj",
+        "projectUniqueName": "E:\\ClassSubject\\PhanMemHuongDichVu\\TodoList\\BackEnd\\TodoAPIGateway\\TodoAPIGateway.csproj",
         "projectName": "TodoAPIGateway",
-        "projectPath": "F:\\ClassSubject\\PhanMemHuongDichVu\\TodoList\\BackEnd\\TodoAPIGateway\\TodoAPIGateway.csproj",
+        "projectPath": "E:\\ClassSubject\\PhanMemHuongDichVu\\TodoList\\BackEnd\\TodoAPIGateway\\TodoAPIGateway.csproj",
         "packagesPath": "C:\\Users\\pntoa\\.nuget\\packages\\",
-        "outputPath": "F:\\ClassSubject\\PhanMemHuongDichVu\\TodoList\\BackEnd\\TodoAPIGateway\\obj\\",
+        "outputPath": "E:\\ClassSubject\\PhanMemHuongDichVu\\TodoList\\BackEnd\\TodoAPIGateway\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\pntoa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,6 +59,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -71,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
